@@ -3,24 +3,23 @@
 ## Meta-Information
 
 * Course Instructors:
-  * Martin Stancsics (@stanmart)
+  * Julius Schäper (@jfschaeper)
+  * Frederik Bennhoff (@FredHB)
+  * Sára Khayouti (@sarakhayouti)
 
 * Teaching Assistants:
-  * Agustina Colonna (@agcolo95)
-  * Julius Schäper (@jfschaeper)
-
-*   Course Syllabus: [click here](pp4rs-syllabus.pdf)
+  * Justinas Grigaitis (@justgri)
 
 ## Important Links:
 
 * Course website:
-    * [`pp4rs.github.io/2022-uzh`](https://pp4rs.github.io/2022-uzh)
+    * [pp4rs.github.io/](https://pp4rs.github.io/)
 * Installation Guide:
-    * [`pp4rs.github.io/installation-guide`](https://pp4rs.github.io/installation-guide)
+    * [pp4rs.github.io/installation-guide](https://pp4rs.github.io/install_guide/)
 * Course Chatter:
-    * [`MS Teams`](https://teams.microsoft.com/l/team/19%3aMA-STKx6h1juEjzbUJBHmqRpnR3fziZ9eonILMKzGL01%40thread.tacv2/conversations?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3)
+    * [MS Teams](https://teams.microsoft.com/l/team/19%3AMA-STKx6h1juEjzbUJBHmqRpnR3fziZ9eonILMKzGL01%40thread.tacv2/conversations?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3)
 * GitHub repositories
-    * [`github.com/pp4rs`](https://github.com/pp4rs)
+    * [github.com/pp4rs](https://github.com/pp4rs)
 
 ## Accessing the Course Materials for the First Time
 
@@ -31,12 +30,12 @@ Here are the necessary instructions so that you have your own copy, and it direc
     * This gives you your own copy of the repository on GitHub
 2. Clone your copy of the repository, by entering the following commands into a terminal after navigating to a folder that you want the materials to live inside:
     ```bash
-        $ git clone https://github.com/YOURUSERNAME/2022-uzh-material.git
+        $ git clone https://github.com/YOURUSERNAME/2024-uzh-course-material.git
     ```
     * This gives you your own copy of the repository on your computer
 3. Connect an `upstream` branch to the pp4rs master repository:
     ```bash
-        $ git remote add upstream https://github.com/pp4rs/2022-uzh-material.git
+        $ git remote add upstream https://github.com/pp4rs/2024-uzh-course-material.git
     ```
     * This gives you the ability to connect to the repository where new materials will be added throughout the course
 
@@ -61,20 +60,20 @@ When you want to try and update your repository with new course material we post
 
 1. Navigate to the repository's root folder
     ```bash
-        ~$ cd path/to/2022-uzh-material
+        ~$ cd path/to/2024-uzh-course-material
     ```
     * *Note:* be careful and alter the path above to match your filesystem.
 1. `Fetch` the new contents from the `upstream` branch
     ```bash
-        ~/phd-courses/first-year/2020-uzh-material/$ git fetch upstream
+        ~/phd-courses/2024-uzh-course-material/$ git fetch upstream
     ```
 2. Checkout the current branch, called `master`, of the files on your computer
     ```bash
-        ~/phd-courses/first-year/2020-uzh-material/$ git checkout master
+        ~/phd-courses/2024-uzh-course-material/$ git checkout master
     ```
 3. Merge the updated materials from `upstream` into master
     ```bash
-        ~/phd-courses/first-year/2020-uzh-material/$ git merge upstream/master
+        ~/phd-courses/2024-uzh-course-material/$ git merge upstream/master
     ```
 
 Now you have the most up to date version of the course materials on your computer.
@@ -105,7 +104,7 @@ All materials are licensed under a Creative Commons CC-BY-SA license. The licens
 The suggested citation for this repository is:
 
 ```
-Agustina Colonna, Lachlan Deer, Julian Langer, Julius Schäper and Martin Stancsics 2022, Programming Practices for Research in Economics, University of Zurich
+Lachlan Deer, Julian Langer, Julius Schäper and Martin Stancsics 2024, Programming Practices for Research in Economics, University of Zurich
 ```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
